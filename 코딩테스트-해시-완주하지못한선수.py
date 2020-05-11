@@ -28,13 +28,5 @@ solution(p2, c2)
 
 #answer leo / vinko / mislav
 
-#answer code?
-def solution(participant, completion):
-    for i in range(len(participant)):
-        if participant[i] in completion:
-            participant[i] == "O"
-            completion.remove(participant[i])
-        else:
-            return participant[i]
 
 
